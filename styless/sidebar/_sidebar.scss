@@ -1,0 +1,125 @@
+
+.main-menu:hover,sidebar.main-menu.expanded {
+    width:250px;
+    overflow:visible;
+    }
+
+    @media (max-width: 448px){
+        .main-menu:hover,sidebar.main-menu.expanded {
+            width:160px;
+            } 
+
+    }
+
+    @media (mix-width: 449px) and (max-width: 768px){
+        
+    }
+    
+    .main-menu {
+    background:#212121;
+    border-right:1px solid #e5e5e5;
+    position:absolute;
+    top:0;
+    bottom:0;
+    height:100%;
+    left:0;
+    width:60px;
+    overflow:hidden;
+    transition:width .05s linear;
+    transition:width .05s linear;
+    transform:translateZ(0) scale(1,1);
+    z-index:1000;
+    }
+    
+    .main-menu>ul {
+    margin:7px 0;
+    }
+    
+    .main-menu li {
+    position:relative;
+    display:block;
+    width:250px;
+    }
+    
+    .main-menu li>a {
+    position:relative;
+    display:table;
+    border-collapse:collapse;
+    border-spacing:0;
+    color:#999;
+     font-family: arial;
+    font-size: 14px;
+    text-decoration:none;
+    transform:translateZ(0) scale(1,1);
+    transition:all .1s linear;
+    transition:all .1s linear;
+      
+    }
+    
+    .main-menu .sidebar-icon {
+    position:relative;
+    display:table-cell;
+    width:60px;
+    height:36px;
+    text-align:center;
+    vertical-align:middle;
+    font-size:18px;
+    }
+    
+    .main-menu {
+        background:#212121;
+        border-right:1px solid #e5e5e5;
+        position:absolute;
+        top:0;
+        bottom:0;
+        height:100%;
+        left:0;
+        width:60px;
+        overflow:hidden;
+        -webkit-transition:width .05s linear;
+        transition:width .05s linear;
+        transform:translateZ(0) scale(1,1);
+        z-index:1000;
+        }
+
+        @media (max-width: 448px){
+           .main-menu{
+            height: 850px;
+            position:absolute;
+           }
+    
+        }
+    
+    .sidebar_btn {
+    background-color:#212121;
+    color: #999; 
+    width: 170px;
+    height: 35px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 20px;
+    }
+    
+    @media (max-width: 448px){
+        .sidebar_btn{
+            width: 80px;
+        }
+
+    }
+
+     
+    .sidebar_btn:hover{
+        background-color: #515151;
+    }
+    
+    .sidebar_btl_link {
+        text-decoration: none;
+        color: #999;
+    }
+    .sidebar_icon {
+        width: 30px;
+        height: 30px;
+        margin-left: -27px;
+        margin-top: 14px;
+        position: absolute;
+    }
